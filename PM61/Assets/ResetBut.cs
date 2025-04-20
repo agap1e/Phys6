@@ -15,7 +15,8 @@ public class ResetBut : MonoBehaviour
     public TMP_InputField inputField2;
    public void ResetButt()
    {
-        SceneManager.LoadScene(0);
+        string currentSceneName = SceneManager.GetActiveScene().name;
+        SceneManager.LoadScene(currentSceneName);
    }
     public void ChangeAngle() 
     { 
@@ -30,5 +31,14 @@ public class ResetBut : MonoBehaviour
         inputField1.gameObject.SetActive(false);
         inputField2.gameObject.SetActive(false);
 
+    }
+
+    public void Next()
+    {
+        SceneManager.LoadScene(1);
+    }
+    public void Priv()
+    {
+        SceneManager.LoadScene(0);
     }
 }

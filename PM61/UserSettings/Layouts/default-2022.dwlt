@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1692
     height: 854.6667
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Inspector
   m_RootView: {fileID: 4}
   m_MinSize: {x: 875, y: 350}
   m_MaxSize: {x: 10000, y: 10000}
@@ -297,8 +297,8 @@ MonoBehaviour:
     y: 0
     width: 332
     height: 804.6667
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -341,9 +341,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 1a640000
-      m_LastClickedID: 25626
-      m_ExpandedIDs: 12fbffff
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 56e7ffffa0e7ffff8ce9ffffe2e9ffffc8ebffff54ecffffaaf0ffff74f2ffff3af9ffff12fbffff7c660000b8680000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -879,9 +879,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0, y: 11.28, z: -10}
+    m_Target: {x: 755.3857, y: 498.9662, z: 214.83072}
     speed: 2
-    m_Value: {x: 0, y: 11.28, z: -10}
+    m_Value: {x: 755.3857, y: 498.9662, z: 214.83072}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -927,13 +927,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.14729579, y: 0.32859722, z: -0.05192999, w: -0.9315671}
+    m_Target: {x: -0.010801134, y: -0.039883886, z: 0.00043870154, w: -0.9992407}
     speed: 2
-    m_Value: {x: -0.14729579, y: 0.32859722, z: -0.051929988, w: -0.9315671}
+    m_Value: {x: -0.01080011, y: -0.039880104, z: 0.00043865998, w: -0.999146}
   m_Size:
-    m_Target: 4.357086
+    m_Target: 338.8372
     speed: 2
-    m_Value: 4.357086
+    m_Value: 338.8372
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1101,7 +1101,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Scenes
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -1109,15 +1109,15 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Unity\projects\PM61
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 74.33331}
-    m_SelectedIDs: b4610000
-    m_LastClickedID: 25012
+    m_SelectedIDs: c4610000
+    m_LastClickedID: 25028
     m_ExpandedIDs: 00000000b461000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1277,7 +1277,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 407.69998
+  m_LastVerticalScrollValue: 266.66663
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:

@@ -3,7 +3,10 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - BilliardBallCollision
     - Moving
+    - Moving1
     - Object1
+    - Object2
+    - ObstacleSpawner3D
     - ResetBut
     Cinemachine.dll:
     - Cinemachine.CinemachineBrain
@@ -89,6 +92,15 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: ResetBut
     methodName: ChangeAngle
+  - assembly: Assembly-CSharp
+    fullTypeName: ResetBut
+    methodName: Next
+  - assembly: Assembly-CSharp
+    fullTypeName: ResetBut
+    methodName: ResetButt
+  - assembly: Assembly-CSharp
+    fullTypeName: ResetBut
+    methodName: Priv
   sceneClasses:
     Assets/Scenes/Task1.unity:
     - Class: 1
@@ -174,6 +186,87 @@ ScriptsOnlyBuild:
     - Class: 128
       Script: {instanceID: 0}
     - Class: 135
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+    Assets/Scenes/Task2.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1644}
+    - Class: 114
+      Script: {instanceID: 1792}
+    - Class: 114
+      Script: {instanceID: 2826}
+    - Class: 114
+      Script: {instanceID: 3058}
+    - Class: 114
+      Script: {instanceID: 3426}
+    - Class: 114
+      Script: {instanceID: 4592}
+    - Class: 114
+      Script: {instanceID: 5570}
+    - Class: 114
+      Script: {instanceID: 5782}
+    - Class: 114
+      Script: {instanceID: 6468}
+    - Class: 114
+      Script: {instanceID: 6488}
+    - Class: 114
+      Script: {instanceID: 6678}
+    - Class: 114
+      Script: {instanceID: 6882}
+    - Class: 114
+      Script: {instanceID: 7074}
+    - Class: 114
+      Script: {instanceID: 8072}
+    - Class: 114
+      Script: {instanceID: 8078}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 135
+      Script: {instanceID: 0}
+    - Class: 136
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -1511,4 +1604,5 @@ ScriptsOnlyBuild:
   platform: 19
   scenePathNames:
   - Assets/Scenes/Task1.unity
+  - Assets/Scenes/Task2.unity
   playerPath: D:/Unity/projects/PM61/Builds/PM61.exe
